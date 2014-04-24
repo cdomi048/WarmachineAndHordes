@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB6B998F18E22B0E00563253 /* WAHFactionSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6B998D18E22B0D00563253 /* WAHFactionSearchViewController.m */; };
+		AB6B999018E22B0E00563253 /* WAHFactionSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB6B998E18E22B0E00563253 /* WAHFactionSearchViewController.xib */; };
+		AB89A8171904BEC700B554A5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB89A8161904BEC600B554A5 /* MobileCoreServices.framework */; };
+		AB89A81A1904F03300B554A5 /* WAHAppData.m in Sources */ = {isa = PBXBuildFile; fileRef = AB89A8191904F03300B554A5 /* WAHAppData.m */; };
+		AB89A81E1904F66E00B554A5 /* WAHInactiveGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB89A81C1904F66D00B554A5 /* WAHInactiveGameViewController.m */; };
+		AB89A81F1904F66E00B554A5 /* WAHInactiveGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB89A81D1904F66E00B554A5 /* WAHInactiveGameViewController.xib */; };
+		AB89A8201905033E00B554A5 /* WAHRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB6B998818E229B300563253 /* WAHRegisterViewController.xib */; };
+		AB89A821190503BC00B554A5 /* WAHRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6B998718E229B300563253 /* WAHRegisterViewController.m */; };
+		AB89A82519057BD000B554A5 /* WAHGameSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB89A82319057BCF00B554A5 /* WAHGameSwitchViewController.m */; };
+		AB89A82619057BD000B554A5 /* WAHGameSwitchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB89A82419057BCF00B554A5 /* WAHGameSwitchViewController.xib */; };
+		AB89A82A1905D98A00B554A5 /* WAHGameHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB89A8281905D98800B554A5 /* WAHGameHistoryViewController.m */; };
+		AB89A82B1905D98A00B554A5 /* WAHGameHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB89A8291905D98900B554A5 /* WAHGameHistoryViewController.xib */; };
+		ABB7E30D18E12DA500ABDC76 /* privateer-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB7E30C18E12DA500ABDC76 /* privateer-logo.png */; };
+		ABB7E31118E1F8AD00ABDC76 /* WAHSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB7E30F18E1F8AD00ABDC76 /* WAHSearchViewController.m */; };
+		ABB7E31218E1F8AD00ABDC76 /* WAHSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB7E31018E1F8AD00ABDC76 /* WAHSearchViewController.xib */; };
+		ABB7E31418E1FD1B00ABDC76 /* avatar2.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB7E31318E1FD1A00ABDC76 /* avatar2.png */; };
+		ABB7E31618E1FD2000ABDC76 /* avatar1.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB7E31518E1FD2000ABDC76 /* avatar1.png */; };
+		ABB7E31A18E1FF1100ABDC76 /* WAHProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB7E31818E1FF1000ABDC76 /* WAHProfileViewController.m */; };
+		ABB7E31B18E1FF1100ABDC76 /* WAHProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB7E31918E1FF1000ABDC76 /* WAHProfileViewController.xib */; };
+		ABBDFCFE18E119B300C3B8D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBDFCFD18E119B300C3B8D7 /* UIKit.framework */; };
+		ABBDFD0018E119B300C3B8D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBDFCFF18E119B300C3B8D7 /* Foundation.framework */; };
+		ABBDFD0218E119B300C3B8D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBDFD0118E119B300C3B8D7 /* CoreGraphics.framework */; };
+		ABBDFD0818E119B300C3B8D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABBDFD0618E119B300C3B8D7 /* InfoPlist.strings */; };
+		ABBDFD0A18E119B300C3B8D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBDFD0918E119B300C3B8D7 /* main.m */; };
+		ABBDFD0E18E119B300C3B8D7 /* WAHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBDFD0D18E119B300C3B8D7 /* WAHAppDelegate.m */; };
+		ABBDFD1018E119B300C3B8D7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBDFD0F18E119B300C3B8D7 /* Default.png */; };
+		ABBDFD1218E119B300C3B8D7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBDFD1118E119B300C3B8D7 /* Default@2x.png */; };
+		ABBDFD1418E119B300C3B8D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBDFD1318E119B300C3B8D7 /* Default-568h@2x.png */; };
+		ABBDFD1918E119B300C3B8D7 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBDFD1818E119B300C3B8D7 /* first.png */; };
+		ABBDFD1B18E119B300C3B8D7 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBDFD1A18E119B300C3B8D7 /* first@2x.png */; };
+		ABBDFD2018E119B300C3B8D7 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBDFD1F18E119B300C3B8D7 /* second.png */; };
+		ABBDFD2218E119B300C3B8D7 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBDFD2118E119B300C3B8D7 /* second@2x.png */; };
+		ABBDFD3118E11A0400C3B8D7 /* WAHPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBDFD2F18E11A0400C3B8D7 /* WAHPlayerViewController.m */; };
+		ABBDFD3218E11A0400C3B8D7 /* WAHPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABBDFD3018E11A0400C3B8D7 /* WAHPlayerViewController.xib */; };
+		ABBDFD3618E11A7F00C3B8D7 /* WAHGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBDFD3418E11A7F00C3B8D7 /* WAHGameViewController.m */; };
+		ABBDFD3718E11A7F00C3B8D7 /* WAHGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABBDFD3518E11A7F00C3B8D7 /* WAHGameViewController.xib */; };
+		ABBDFD3B18E11AA000C3B8D7 /* WAHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBDFD3918E11AA000C3B8D7 /* WAHLoginViewController.m */; };
+		ABBDFD3C18E11AA000C3B8D7 /* WAHLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABBDFD3A18E11AA000C3B8D7 /* WAHLoginViewController.xib */; };
+		ABBDFD4818E1215300C3B8D7 /* warmachine_hordes.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBDFD4718E1215300C3B8D7 /* warmachine_hordes.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB6B998618E229B300563253 /* WAHRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAHRegisterViewController.h; sourceTree = "<group>"; };
+		AB6B998718E229B300563253 /* WAHRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAHRegisterViewController.m; sourceTree = "<group>"; };
+		AB6B998818E229B300563253 /* WAHRegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WAHRegisterViewController.xib; sourceTree = "<group>"; };
+		AB6B998C18E22B0D00563253 /* WAHFactionSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAHFactionSearchViewController.h; sourceTree = "<group>"; };
+		AB6B998D18E22B0D00563253 /* WAHFactionSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAHFactionSearchViewController.m; sourceTree = "<group>"; };
+		AB6B998E18E22B0E00563253 /* WAHFactionSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WAHFactionSearchViewController.xib; sourceTree = "<group>"; };
+		AB89A8161904BEC600B554A5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		AB89A8181904F03200B554A5 /* WAHAppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAHAppData.h; sourceTree = "<group>"; };
+		AB89A8191904F03300B554A5 /* WAHAppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAHAppData.m; sourceTree = "<group>"; };
+		AB89A81B1904F66C00B554A5 /* WAHInactiveGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAHInactiveGameViewController.h; sourceTree = "<group>"; };
+		AB89A81C1904F66D00B554A5 /* WAHInactiveGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAHInactiveGameViewController.m; sourceTree = "<group>"; };
+		AB89A81D1904F66E00B554A5 /* WAHInactiveGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WAHInactiveGameViewController.xib; sourceTree = "<group>"; };
+		AB89A82219057BCE00B554A5 /* WAHGameSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAHGameSwitchViewController.h; sourceTree = "<group>"; };
+		AB89A82319057BCF00B554A5 /* WAHGameSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAHGameSwitchViewController.m; sourceTree = "<group>"; };
+		AB89A82419057BCF00B554A5 /* WAHGameSwitchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WAHGameSwitchViewController.xib; sourceTree = "<group>"; };
+		AB89A8271905D98600B554A5 /* WAHGameHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAHGameHistoryViewController.h; sourceTree = "<group>"; };
+		AB89A8281905D98800B554A5 /* WAHGameHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAHGameHistoryViewController.m; sourceTree = "<group>"; };
+		AB89A8291905D98900B554A5 /* WAHGameHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WAHGameHistoryViewController.xib; sourceTree = "<group>"; };
+		ABB7E30C18E12DA500ABDC76 /* privateer-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "privateer-logo.png"; sourceTree = "<group>"; };
+		ABB7E30E18E1F8AD00ABDC76 /* WAHSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAHSearchViewController.h; sourceTree = "<group>"; };
+		ABB7E30F18E1F8AD00ABDC76 /* WAHSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAHSearchViewController.m; sourceTree = "<group>"; };
+		ABB7E31018E1F8AD00ABDC76 /* WAHSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WAHSearchViewController.xib; sourceTree = "<group>"; };
+		ABB7E31318E1FD1A00ABDC76 /* avatar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar2.png; sourceTree = "<group>"; };
+		ABB7E31518E1FD2000ABDC76 /* avatar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar1.png; sourceTree = "<group>"; };
+		ABB7E31718E1FF1000ABDC76 /* WAHProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAHProfileViewController.h; sourceTree = "<group>"; };
+		ABB7E31818E1FF1000ABDC76 /* WAHProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAHProfileViewController.m; sourceTree = "<group>"; };
+		ABB7E31918E1FF1000ABDC76 /* WAHProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WAHProfileViewController.xib; sourceTree = "<group>"; };
+		ABBDFCFA18E119B300C3B8D7 /* WarmachineAndHordes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarmachineAndHordes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBDFCFD18E119B300C3B8D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABBDFCFF18E119B300C3B8D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABBDFD0118E119B300C3B8D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABBDFD0518E119B300C3B8D7 /* WarmachineAndHordes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WarmachineAndHordes-Info.plist"; sourceTree = "<group>"; };
+		ABBDFD0718E119B300C3B8D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABBDFD0918E119B300C3B8D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABBDFD0B18E119B300C3B8D7 /* WarmachineAndHordes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WarmachineAndHordes-Prefix.pch"; sourceTree = "<group>"; };
+		ABBDFD0C18E119B300C3B8D7 /* WAHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAHAppDelegate.h; sourceTree = "<group>"; };
+		ABBDFD0D18E119B300C3B8D7 /* WAHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAHAppDelegate.m; sourceTree = "<group>"; };
+		ABBDFD0F18E119B300C3B8D7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ABBDFD1118E119B300C3B8D7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ABBDFD1318E119B300C3B8D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ABBDFD1818E119B300C3B8D7 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		ABBDFD1A18E119B300C3B8D7 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		ABBDFD1F18E119B300C3B8D7 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		ABBDFD2118E119B300C3B8D7 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		ABBDFD2E18E11A0400C3B8D7 /* WAHPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAHPlayerViewController.h; sourceTree = "<group>"; };
+		ABBDFD2F18E11A0400C3B8D7 /* WAHPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAHPlayerViewController.m; sourceTree = "<group>"; };
+		ABBDFD3018E11A0400C3B8D7 /* WAHPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WAHPlayerViewController.xib; sourceTree = "<group>"; };
+		ABBDFD3318E11A7F00C3B8D7 /* WAHGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAHGameViewController.h; sourceTree = "<group>"; };
+		ABBDFD3418E11A7F00C3B8D7 /* WAHGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAHGameViewController.m; sourceTree = "<group>"; };
+		ABBDFD3518E11A7F00C3B8D7 /* WAHGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WAHGameViewController.xib; sourceTree = "<group>"; };
+		ABBDFD3818E11AA000C3B8D7 /* WAHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAHLoginViewController.h; sourceTree = "<group>"; };
+		ABBDFD3918E11AA000C3B8D7 /* WAHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAHLoginViewController.m; sourceTree = "<group>"; };
+		ABBDFD3A18E11AA000C3B8D7 /* WAHLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WAHLoginViewController.xib; sourceTree = "<group>"; };
+		ABBDFD4718E1215300C3B8D7 /* warmachine_hordes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warmachine_hordes.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABBDFCF718E119B300C3B8D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBDFCFE18E119B300C3B8D7 /* UIKit.framework in Frameworks */,
+				ABBDFD0018E119B300C3B8D7 /* Foundation.framework in Frameworks */,
+				ABBDFD0218E119B300C3B8D7 /* CoreGraphics.framework in Frameworks */,
+				AB89A8171904BEC700B554A5 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABBDFCF118E119B300C3B8D7 = {
+			isa = PBXGroup;
+			children = (
+				AB89A8161904BEC600B554A5 /* MobileCoreServices.framework */,
+				ABBDFD0318E119B300C3B8D7 /* WarmachineAndHordes */,
+				ABBDFCFC18E119B300C3B8D7 /* Frameworks */,
+				ABBDFCFB18E119B300C3B8D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABBDFCFB18E119B300C3B8D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABBDFCFA18E119B300C3B8D7 /* WarmachineAndHordes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABBDFCFC18E119B300C3B8D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABBDFCFD18E119B300C3B8D7 /* UIKit.framework */,
+				ABBDFCFF18E119B300C3B8D7 /* Foundation.framework */,
+				ABBDFD0118E119B300C3B8D7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABBDFD0318E119B300C3B8D7 /* WarmachineAndHordes */ = {
+			isa = PBXGroup;
+			children = (
+				ABB7E31518E1FD2000ABDC76 /* avatar1.png */,
+				ABB7E31318E1FD1A00ABDC76 /* avatar2.png */,
+				ABB7E30C18E12DA500ABDC76 /* privateer-logo.png */,
+				ABBDFD4718E1215300C3B8D7 /* warmachine_hordes.png */,
+				ABBDFD0C18E119B300C3B8D7 /* WAHAppDelegate.h */,
+				ABBDFD0D18E119B300C3B8D7 /* WAHAppDelegate.m */,
+				AB89A8181904F03200B554A5 /* WAHAppData.h */,
+				AB89A8191904F03300B554A5 /* WAHAppData.m */,
+				ABBDFD3818E11AA000C3B8D7 /* WAHLoginViewController.h */,
+				ABBDFD3918E11AA000C3B8D7 /* WAHLoginViewController.m */,
+				ABBDFD3A18E11AA000C3B8D7 /* WAHLoginViewController.xib */,
+				AB6B998618E229B300563253 /* WAHRegisterViewController.h */,
+				AB6B998718E229B300563253 /* WAHRegisterViewController.m */,
+				AB6B998818E229B300563253 /* WAHRegisterViewController.xib */,
+				ABBDFD1818E119B300C3B8D7 /* first.png */,
+				ABBDFD1A18E119B300C3B8D7 /* first@2x.png */,
+				ABBDFD1F18E119B300C3B8D7 /* second.png */,
+				ABBDFD2118E119B300C3B8D7 /* second@2x.png */,
+				ABBDFD2E18E11A0400C3B8D7 /* WAHPlayerViewController.h */,
+				ABBDFD2F18E11A0400C3B8D7 /* WAHPlayerViewController.m */,
+				ABBDFD3018E11A0400C3B8D7 /* WAHPlayerViewController.xib */,
+				AB89A81B1904F66C00B554A5 /* WAHInactiveGameViewController.h */,
+				AB89A81C1904F66D00B554A5 /* WAHInactiveGameViewController.m */,
+				AB89A81D1904F66E00B554A5 /* WAHInactiveGameViewController.xib */,
+				ABBDFD3318E11A7F00C3B8D7 /* WAHGameViewController.h */,
+				ABBDFD3418E11A7F00C3B8D7 /* WAHGameViewController.m */,
+				ABBDFD3518E11A7F00C3B8D7 /* WAHGameViewController.xib */,
+				ABB7E30E18E1F8AD00ABDC76 /* WAHSearchViewController.h */,
+				ABB7E30F18E1F8AD00ABDC76 /* WAHSearchViewController.m */,
+				ABB7E31018E1F8AD00ABDC76 /* WAHSearchViewController.xib */,
+				AB6B998C18E22B0D00563253 /* WAHFactionSearchViewController.h */,
+				AB6B998D18E22B0D00563253 /* WAHFactionSearchViewController.m */,
+				AB6B998E18E22B0E00563253 /* WAHFactionSearchViewController.xib */,
+				ABB7E31718E1FF1000ABDC76 /* WAHProfileViewController.h */,
+				ABB7E31818E1FF1000ABDC76 /* WAHProfileViewController.m */,
+				ABB7E31918E1FF1000ABDC76 /* WAHProfileViewController.xib */,
+				AB89A82219057BCE00B554A5 /* WAHGameSwitchViewController.h */,
+				AB89A82319057BCF00B554A5 /* WAHGameSwitchViewController.m */,
+				AB89A82419057BCF00B554A5 /* WAHGameSwitchViewController.xib */,
+				AB89A8271905D98600B554A5 /* WAHGameHistoryViewController.h */,
+				AB89A8281905D98800B554A5 /* WAHGameHistoryViewController.m */,
+				AB89A8291905D98900B554A5 /* WAHGameHistoryViewController.xib */,
+				ABBDFD0418E119B300C3B8D7 /* Supporting Files */,
+			);
+			path = WarmachineAndHordes;
+			sourceTree = "<group>";
+		};
+		ABBDFD0418E119B300C3B8D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABBDFD0518E119B300C3B8D7 /* WarmachineAndHordes-Info.plist */,
+				ABBDFD0618E119B300C3B8D7 /* InfoPlist.strings */,
+				ABBDFD0918E119B300C3B8D7 /* main.m */,
+				ABBDFD0B18E119B300C3B8D7 /* WarmachineAndHordes-Prefix.pch */,
+				ABBDFD0F18E119B300C3B8D7 /* Default.png */,
+				ABBDFD1118E119B300C3B8D7 /* Default@2x.png */,
+				ABBDFD1318E119B300C3B8D7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABBDFCF918E119B300C3B8D7 /* WarmachineAndHordes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBDFD2B18E119B300C3B8D7 /* Build configuration list for PBXNativeTarget "WarmachineAndHordes" */;
+			buildPhases = (
+				ABBDFCF618E119B300C3B8D7 /* Sources */,
+				ABBDFCF718E119B300C3B8D7 /* Frameworks */,
+				ABBDFCF818E119B300C3B8D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarmachineAndHordes;
+			productName = WarmachineAndHordes;
+			productReference = ABBDFCFA18E119B300C3B8D7 /* WarmachineAndHordes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABBDFCF218E119B300C3B8D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WAH;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jonathan & Cesar";
+			};
+			buildConfigurationList = ABBDFCF518E119B300C3B8D7 /* Build configuration list for PBXProject "WarmachineAndHordes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABBDFCF118E119B300C3B8D7;
+			productRefGroup = ABBDFCFB18E119B300C3B8D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABBDFCF918E119B300C3B8D7 /* WarmachineAndHordes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABBDFCF818E119B300C3B8D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBDFD0818E119B300C3B8D7 /* InfoPlist.strings in Resources */,
+				ABBDFD1018E119B300C3B8D7 /* Default.png in Resources */,
+				ABBDFD1218E119B300C3B8D7 /* Default@2x.png in Resources */,
+				ABBDFD1418E119B300C3B8D7 /* Default-568h@2x.png in Resources */,
+				ABBDFD1918E119B300C3B8D7 /* first.png in Resources */,
+				ABBDFD1B18E119B300C3B8D7 /* first@2x.png in Resources */,
+				ABBDFD2018E119B300C3B8D7 /* second.png in Resources */,
+				ABBDFD2218E119B300C3B8D7 /* second@2x.png in Resources */,
+				ABBDFD3218E11A0400C3B8D7 /* WAHPlayerViewController.xib in Resources */,
+				ABBDFD3718E11A7F00C3B8D7 /* WAHGameViewController.xib in Resources */,
+				ABBDFD3C18E11AA000C3B8D7 /* WAHLoginViewController.xib in Resources */,
+				ABBDFD4818E1215300C3B8D7 /* warmachine_hordes.png in Resources */,
+				ABB7E30D18E12DA500ABDC76 /* privateer-logo.png in Resources */,
+				ABB7E31218E1F8AD00ABDC76 /* WAHSearchViewController.xib in Resources */,
+				ABB7E31418E1FD1B00ABDC76 /* avatar2.png in Resources */,
+				ABB7E31618E1FD2000ABDC76 /* avatar1.png in Resources */,
+				ABB7E31B18E1FF1100ABDC76 /* WAHProfileViewController.xib in Resources */,
+				AB6B999018E22B0E00563253 /* WAHFactionSearchViewController.xib in Resources */,
+				AB89A81F1904F66E00B554A5 /* WAHInactiveGameViewController.xib in Resources */,
+				AB89A8201905033E00B554A5 /* WAHRegisterViewController.xib in Resources */,
+				AB89A82619057BD000B554A5 /* WAHGameSwitchViewController.xib in Resources */,
+				AB89A82B1905D98A00B554A5 /* WAHGameHistoryViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABBDFCF618E119B300C3B8D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBDFD0A18E119B300C3B8D7 /* main.m in Sources */,
+				ABBDFD0E18E119B300C3B8D7 /* WAHAppDelegate.m in Sources */,
+				ABBDFD3118E11A0400C3B8D7 /* WAHPlayerViewController.m in Sources */,
+				ABBDFD3618E11A7F00C3B8D7 /* WAHGameViewController.m in Sources */,
+				ABBDFD3B18E11AA000C3B8D7 /* WAHLoginViewController.m in Sources */,
+				ABB7E31118E1F8AD00ABDC76 /* WAHSearchViewController.m in Sources */,
+				ABB7E31A18E1FF1100ABDC76 /* WAHProfileViewController.m in Sources */,
+				AB6B998F18E22B0E00563253 /* WAHFactionSearchViewController.m in Sources */,
+				AB89A81A1904F03300B554A5 /* WAHAppData.m in Sources */,
+				AB89A81E1904F66E00B554A5 /* WAHInactiveGameViewController.m in Sources */,
+				AB89A821190503BC00B554A5 /* WAHRegisterViewController.m in Sources */,
+				AB89A82519057BD000B554A5 /* WAHGameSwitchViewController.m in Sources */,
+				AB89A82A1905D98A00B554A5 /* WAHGameHistoryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABBDFD0618E119B300C3B8D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABBDFD0718E119B300C3B8D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABBDFD2918E119B300C3B8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABBDFD2A18E119B300C3B8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABBDFD2C18E119B300C3B8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WarmachineAndHordes/WarmachineAndHordes-Prefix.pch";
+				INFOPLIST_FILE = "WarmachineAndHordes/WarmachineAndHordes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABBDFD2D18E119B300C3B8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WarmachineAndHordes/WarmachineAndHordes-Prefix.pch";
+				INFOPLIST_FILE = "WarmachineAndHordes/WarmachineAndHordes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABBDFCF518E119B300C3B8D7 /* Build configuration list for PBXProject "WarmachineAndHordes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBDFD2918E119B300C3B8D7 /* Debug */,
+				ABBDFD2A18E119B300C3B8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABBDFD2B18E119B300C3B8D7 /* Build configuration list for PBXNativeTarget "WarmachineAndHordes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBDFD2C18E119B300C3B8D7 /* Debug */,
+				ABBDFD2D18E119B300C3B8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABBDFCF218E119B300C3B8D7 /* Project object */;
+}
